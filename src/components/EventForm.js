@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 class EventForm extends Component {
 
@@ -55,6 +56,11 @@ class EventForm extends Component {
             </form>
         );
     }
+}
+
+EventForm.propTypes = {
+    getEvents: PropTypes.func.isRequired,
+    categories: PropTypes.array.isRequired
 }
  
 export default EventForm;
