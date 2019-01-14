@@ -31,7 +31,7 @@ class EventForm extends Component {
         const categories = Object.keys(this.props.categories);
         
         return (
-            <form onClick={this.getEvents}>
+            <form onSubmit={this.getEvents}>
                 <fieldset className="uk-fieldset uk-margin">
                     <legend className="uk-legend uk-text-center">
                         Busca tu evento por nombre o categoria
