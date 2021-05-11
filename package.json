@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
-    "react-scripts": "^3.4.1"
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-scripts": "^3.4.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -23,6 +23,6 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "prop-types": "^15.6.2"
+    "prop-types": "^15.7.2"
   }
 }
